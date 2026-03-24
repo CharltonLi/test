@@ -15,5 +15,6 @@ st.write("4. Data received!")
 
 # Print results.
 for row in rows.data:
+    st.write("test")
     name = row["product_name"]
     st.write(f"Product type: {name}")
